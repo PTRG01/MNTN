@@ -1,14 +1,31 @@
+/* PAGE COLORS
+#FFFFFF
+#FBD784
+#354147
+
+background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+
+Chronicle Display
+*/
+
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    width: 100%;
-    background-color: #0B1D26;;
+  width: 100%;
+  max-width: 1920px;
+  font-family: "Libre Baskerville", serif;
+  color: #fff;
+  background-color: #0B1D26;
+}
+
+a {
+  text-decoration: none;
 }
