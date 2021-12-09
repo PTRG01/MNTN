@@ -149,9 +149,7 @@
   padding: 16px;
 }
 
-main {
-  display: none !important;
-}
+
 
 @media (max-width: 1317px) {
   .header__main-heading {
