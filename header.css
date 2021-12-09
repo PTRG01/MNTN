@@ -140,12 +140,17 @@
   list-style: none;
   /* margin-bottom: 40px; */
   justify-self: flex-start;
+  position: relative;
 }
 
 .header__slider-list li {
   padding-bottom: 40px;
   border-right: 4px solid rgb(255, 255, 255, 0.5);
   padding: 16px;
+}
+
+main {
+  display: none !important;
 }
 
 @media (max-width: 1317px) {
@@ -192,6 +197,46 @@
     margin-top: 1rem;
   }
 
+}
+
+@media (max-width: 460px) {
+  .header {
+    padding: 46px 40px 25px 40px;
+  }
+
+  .header__menu {
+    gap: 20px;
+    font-size: 14px;
+  }
+
+  .header__logo {
+    width: 60px;
+  }
+
+  .header__account {
+    font-size: 14px;
+  }
+
+  .header__account img {
+    width: 16px;
+  }
+}
+
+@media (max-width: 370px) {
+  .header__menu {
+    gap: 8px;
+    font-size: 12px;
+  }
+
+  .header__main-heading {
+    font-size: 20px;
+    line-height: 25px;
+
+  }
+
+  .header {
+    padding: 32px 30px 20px 30px;
+  }
 }
 
 /* width: 100%;
