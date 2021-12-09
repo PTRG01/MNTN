@@ -12,128 +12,15 @@ Chronicle Display
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #fff;
-  text-decoration: none;
 }
 
 body {
   width: 100%;
   max-width: 1920px;
   font-family: "Libre Baskerville", serif;
+  color: #fff;
 }
 
-header {
-  padding: 64px 75px 50px 75px;
-  width: 100%;
-  background-image: url(img/bg.png);
-  min-height: 1200px;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-weight: bold;
-  font-size: 24px;
-}
-.menu {
-  display: flex;
-  gap: 40px;
-}
-.account {
-  display: flex;
-  align-items: center;
-}
-
-.account p {
-  margin-left: 8px;
-}
-.background {
-  position: relative;
-}
-.header-container {
-  margin-top: 198px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.header-content {
-  width: 100%;
-  max-width: 950px;
-}
-.main-heading {
-  margin-top: 32px;
-  font-weight: 600;
-  font-size: 70px;
-  line-height: 100px;
-}
-
-.sub-heading-cont {
-  display: inline-flex;
-  align-items: center;
-}
-
-.sub-heading {
-  margin-left: 32px;
-  color: #fbd784;
-}
-
-.scroll {
-  display: flex;
-}
-.sub-line {
-  width: 72px;
-  height: 2px;
-  border-color: #fbd784;
-}
-
-.scroll p {
-  /* margin-left: 16px; */
-}
-.scroll img {
-  margin-left: 12px;
-}
-
-.social {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.social p {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  writing-mode: lr-tb;
-  font-size: 18px;
-  margin-bottom: 24px;
-}
-
-.social img {
-  margin-top: 24px;
-  max-width: 24px;
-}
-
-.slider {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  font-size: 18px;
-}
-
-.slider-list {
-  /* display: flex; */
-  /* align-self: flex-start; */
-  list-style: none;
-  /* margin-bottom: 40px; */
-  justify-self: flex-start;
-}
-
-.slider-list li {
-  padding-bottom: 40px;
-  border-right: 4px solid rgb(255, 255, 255, 0.5);
-  padding: 16px;
+a {
+  text-decoration: none;
 }
