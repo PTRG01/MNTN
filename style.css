@@ -14,11 +14,16 @@ Chronicle Display
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   width: 100%;
   max-width: 1920px;
   font-family: "Libre Baskerville", serif;
   color: #fff;
+  background-color: #0B1D26;
 }
 
 a {
